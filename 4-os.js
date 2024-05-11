@@ -14,3 +14,10 @@ const operatingSystem={
 
 console.log(userInfo);
 console.log(operatingSystem);
+
+// OS is a built in module that comes with nodeJS
+// Built in modules are modules that not require to be install separately
+// The list of built in modules of node JS can be view here https://nodejs.org/api/
+
+// OS module provides the information about the Operating System we are working on 
+// Run the program to get more info

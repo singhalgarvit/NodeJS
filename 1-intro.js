@@ -6,3 +6,5 @@ console.log(__dirname);
 // },100)
 console.log(process)
 console.log(module)
+
+// Run this script to log all the useful details about your Node App
