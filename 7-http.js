@@ -11,7 +11,7 @@ const server =http.createServer((req,res)=>{
     }
     res.end()
 })
-server.listen(80)
+server.listen(80,'127.0.0.1')
 
 
 // http module is used to create server in NodeJS
