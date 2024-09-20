@@ -1,6 +1,6 @@
 const http=require('http')
 const server =http.createServer((req,res)=>{
-    if(req.url==='/'){
+    if(req.url==='/' && req.method =="GET"){
         res.write("Hello Duniya")
     }
     else if(req.url=='/about'){
